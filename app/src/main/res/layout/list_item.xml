@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_item"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal">
+
+    <LinearLayout style="@style/list_item_linearMath">
+
+        <TextView
+            style="@style/list_item_score_name"
+            android:text="@string/math" />
+
+        <TextView
+            android:id="@+id/math_score"
+            style="@style/list_item_score"
+            android:text="" />
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/list_item_linearEnglish">
+
+        <TextView
+            style="@style/list_item_score_name"
+            android:text="@string/english" />
+
+        <TextView
+            android:id="@+id/english_score"
+            style="@style/list_item_score"
+            android:text="" />
+
+    </LinearLayout>
+
+</LinearLayout>

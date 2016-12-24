@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ReportCard</string>
+
+    <string name="button_name">show ReportCard</string>
+
+    <string name="math">Math</string>
+
+    <string name="english">English</string>
+
+    <string name="report_name">scores</string>
+</resources>
