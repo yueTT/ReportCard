@@ -17,11 +17,11 @@ public class ReportCard {
     }
 
     public String getEnglish_score() {
-        return toString(english_score);
+        return english_score + "";
     }
 
     public String getMath_score() {
-        return toString(math_score);
+        return math_score + "";
     }
 
     public void setEnglish_score(int english_score) {
@@ -32,7 +32,8 @@ public class ReportCard {
         this.math_score = math_score;
     }
 
-    public String toString(int score) {
-        return String.valueOf(score);
+    @Override
+    public String toString() {
+        return math_score + "|" + english_score;
     }
 }
